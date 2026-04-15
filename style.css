@@ -506,6 +506,48 @@ p {
     transform: rotateY(360deg) scale(1.08) translateY(-10px);
 }
 
+/* Why Hire Me Section */
+.why-hire {
+    background: transparent;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.why-card {
+    padding: 25px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 16px;
+}
+
+.why-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+}
+
+.why-icon {
+    font-size: 32px;
+    color: #6366f1;
+    margin-bottom: 15px;
+}
+
+.why-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #e2e8f0;
+}
+
+.why-card p {
+    font-size: 14px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
 /* Deep Soft Glowing Light behind Character */
 .hero-glow {
     position: absolute;
